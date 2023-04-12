@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there, this is YogaAspire bot. tell me your symptoms, then click on start button and give access to your webcam "  
+      ]
+    },
+    {
+      "tag": "tadasana",
+      "patterns": [
+        "i have leg pain",
+        "my height is short",
+        "i suffer from parkinson disease",
+        "i am patient of low blood pressure",
+        "i have insomnia"
+        
+      ],
+      "responses": [
+        "it is suggested to do tadasana",
+        "You can try tadasana",
+        "Tadasana should be beneficial"
+      ]
+    },
+  
+    {
+      "tag": "savasana",
+      "patterns": ["i have curved spine", 
+        "i have pain in my anke and the knees", 
+        "i feel tired always",
+        "i have bad posture",
+        "i dont feel attentive"],
+      "responses": [
+        "it is suggested to do savasana",
+        "You can try savasana",
+        "savasana should be beneficial"
+      ]
+    },
+    {
+      "tag": "vrikshasana",
+      "patterns": ["i have low stamina", 
+        "i suffer from indigestion", 
+        "i have carpal tunnel",
+        "i have a case of frozen shoulders",
+        "stressful life"],
+      "responses": [
+        "it is suggested to do vrikshasana",
+        "You can try vrikshasana",
+        "vrikshasana should be beneficial"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
